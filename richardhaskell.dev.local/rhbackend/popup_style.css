@@ -1,0 +1,108 @@
+#submitButton {
+    padding: 15px;
+    background: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    text-align: center;
+    z-index: 50;
+  }
+  
+  #submitButton:hover {
+    background-color: #45a049;
+  }
+
+  #shim {
+    opacity: .05;
+    filter: alpha(opacity=5);
+    -ms-filter: "alpha(opacity=5)";
+    -khtml-opacity: .05;
+    -moz-opacity: .05;
+    background: #B8B8B8;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 990;
+    display: none;
+  }
+  
+  #msgbx {
+    position:absolute;
+    height: 600px;
+    width: 600px;
+    margin-top: 0px;
+    margin-left: 0%; 
+    background: #fff;
+    border: 1px solid rgb(129, 128, 128);
+    box-shadow: 3px 3px 7px #777;
+    -webkit-box-shadow: 3px 3px 7px #777;
+    z-index: 999;
+    overflow-x: auto;
+    text-align: center;
+    background-color:#294766;
+    
+  }
+  
+  #parent {
+    /* width: calc(115px * 2); */
+    height: 85px;
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
+  }
+  /* .popBtn{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    font-size: large;
+    background-color: #fff;
+    width: 97px;
+    height: 30%;
+    top: 50%;
+    text-align: center;
+    vertical-align: bottom;
+  } */
+  /* #cancelBtn {
+    position: relative;
+    float: left;
+    margin-left: 14px;
+    padding-top: 3px;
+  }
+  #saveBtn {
+    position: relative;
+    float: right;
+    border-width: 3px;
+    height: 36%;
+    width: 100px;
+  } */
+  /* .output {
+    margin: auto;
+    width: fit-content;
+    font-size: large;
+  } */
+  
+  #msg {
+    position: relative;
+    top: 25px;
+    margin: auto;
+    font-size: 12pt;
+    background-color: none;
+  
+  }
+  @media screen and(max-width: 940px) {
+    #msgbx {
+      margin-left: 20%;
+      left: 30% !important;
+    }
+  }
+  @media screen and(max-width: 400px) {
+    #msgbx {
+      margin-left: 10%;
+    }
+  }

@@ -1,0 +1,10 @@
+.Oauth
+.auth
+.sh
+.md
+.env
+.htaccess
+.vscode
+sendgridApiKey.js
+node_modules/
+doc/
