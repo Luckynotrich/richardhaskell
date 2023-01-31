@@ -1,0 +1,9 @@
+receiving file list ... done
+./
+rhbackend/
+rhbackend/backend/apnd-file.js
+richardhaskell/
+richardhaskell/style.css
+
+sent 399 bytes  received 1,240 bytes  53.74 bytes/sec
+total size is 4,442,530  speedup is 2,710.51 (DRY RUN)

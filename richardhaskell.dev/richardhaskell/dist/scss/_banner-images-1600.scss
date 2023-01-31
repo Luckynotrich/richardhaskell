@@ -1,0 +1,13 @@
+//banner-images-1600
+@media screen and ( max-width: 1600px)
+{
+.bg__2{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.01)), url("../images/banner-images-1600/2_just-mountains-flipped-1600w.jpg");
+}
+.bg__3{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.01)), url("../images/banner-images-1600/3_more-mountains-1600w.png");
+}
+.bg__1{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.01)), url("../images/banner-images-1600/1_richOnTheMountain_1600w.png");
+}
+}

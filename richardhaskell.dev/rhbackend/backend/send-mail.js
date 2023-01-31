@@ -20,7 +20,7 @@ router.post("/sendEmail", (req, res) => {
     })
        
         subject = `New contact from ${data.name}`;
-        text =  'Contact: ' + data.name + ' ' +'Phone: '+ data.phone +' Company: '+ data.company + ' ' +'Email: ' + data.email + ' Message: ' + data.message;
+        text =  'Contact: ' + data.name + ' ' +'Phone: '+ data.phone +'Company: '+ data.company + ' ' +'Email: ' + data.email + 'Message: ' + data.message;
         html = '<h2>'+ data.message +'</h2><div>'+ 'Contact: ' + data.name + '</div><div>' + 'Phone: '+ data.phone+'</div><div>'+'Company: '+ data.company +'</div><div>'+ 'Email: ' + data.email+'</div>';
         
         a2SendMail(subject,text,html);

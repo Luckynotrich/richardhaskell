@@ -1,7 +1,7 @@
 //form-data-format.js
 const date = require('date-and-time')
 
-module.exports = formDataFormat = (msg) => {
+module.exports = function formDataFormat(msg){
         const now = new Date();
         let idData = date.format(now, 'YYYY/MM/DD HH:mm:ss');
         const strMsg1 =  JSON.stringify(msg)

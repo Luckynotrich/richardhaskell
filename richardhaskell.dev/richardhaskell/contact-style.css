@@ -32,6 +32,9 @@ form input[type=text], input[type=email], input[type=tel], textarea{
   font-size: 16px;
   border-radius: 3px;
 }
+input::placeholder{
+  font-family: 'Droid Sans Mono', 'monospace', monospace;
+}
 input:focus::placeholder{
     transition: opacity 1s 0s ease!important;
 	   opacity: 0;
@@ -70,4 +73,3 @@ form button{
     margin-bottom: 0%;
     font-size: small;
   }
-  
