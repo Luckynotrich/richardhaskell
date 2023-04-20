@@ -1,10 +1,13 @@
 .Oauth
 .auth
-.sh
-.md
+*.sh
+*.md
 .env
-.htaccess
-.vscode
+*.htaccess
+*.vscode
+*.err
+*.log
+files.txt
 sendgridApiKey.js
 node_modules/
 doc/
