@@ -1,8 +1,0 @@
-rhbackend/app.js
-node_modules/
-.env
-.git/
-*.txt
-*.err
-*.log
-*.json

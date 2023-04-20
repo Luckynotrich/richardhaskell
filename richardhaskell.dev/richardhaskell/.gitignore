@@ -1,6 +1,0 @@
-.auth
-.sh
-*.log
-*.txt
-*.err
-node_modules/
