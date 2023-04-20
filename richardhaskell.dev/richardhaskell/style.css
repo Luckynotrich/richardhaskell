@@ -3,7 +3,6 @@ html {
   height: 100%;
   background-color: #224162;
   font-family: 'Droid Sans Mono', 'monospace', monospace;
-  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
 }
 article{
   margin-top: 1%;
@@ -44,6 +43,7 @@ ul{
 .heich2 {
   font-size: 16pt;
   display: inline;
+  /* font-weight: bold; */
 }
 .h1_a{
   cursor: url("./images/envelope.png"),help; 
@@ -94,9 +94,17 @@ a:visited{
   text-align: left;
   font-weight: bold;
 }
-
-.weatherTrek{
+#devEx{
+display: flex;
+}
+.futureSelf{
+  content: url("./images/futureself-logo_230w.jpg");
+  aspect-ratio: 23/9;
+}
+.newledo{
   border-radius: 3%;
+  content: url("./images/newledo_230w.png");
+  aspect-ratio: 63/64;
 }
 /* The hero image */
 .hero-image {
@@ -127,20 +135,59 @@ a:visited{
 /* Place text in the middle of the image */
 
 
-@media screen and(max-width: 1370) {
+@media screen and (max-width: 2800px) {
+  .hero-image1{
+    background-position-x: 5%;
+  }
+  .tools{
+    margin-left: -22.5%;
+  }
+  .devEx{
+    width:400px;
+  }
+  .left-1{
+    margin-left: 1.5%;
+  } 
+  #adEx{
+    margin-left: -.5%;
+  }
+}
+@media screen and (max-width: 2400px) {
+  .tools{
+    margin-left: -20%;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .tools{
+    margin-left: -17.5%;
+  }
+}
+@media screen and (max-width: 1835px) {
   
 }
+@media screen and (max-width: 1600px) {
+ 
+  .tools{
+    margin-left: -16.5%;
+  }
+}
 
+@media screen and (max-width: 1200px) {
+ 
+  .tools{
+    margin-left: -14.7%;
+  }
+}
 @media screen and (max-width:935px) { 
 
   body {
     width: 100%;
   }
+  
 section{
   transform: scaleX(.9);
 }
   .hero-image {
-    background-position:center;
     margin-left: -1%;
     margin-top: -3%;
     padding: 0%;
@@ -153,19 +200,101 @@ section{
   h2{
     font-size: large;
   }
-  
+  .tools{
+    margin-left: -17.2%;
+  }
+  .left-1{
+    margin-left: 6.5%;
+  } 
+  #adEx{
+    margin-left: 5.5%;
+  }
 }
 @media screen and (max-width:835px) { 
+  /* .hero-image1{
+    background-position-x: 5%;
+  } */
+  
+  #dev{
+    margin-left: 3.5%;
+  }
   section{
     transform: scaleX(.8);
   }
+  .tools{
+    margin-left: -5%;
+  }
+  #devEx{
+    display: flex;
+    flex-direction: column;
+  }
+   .left-1, .right-1{
+    margin-left: 22%;
+  } 
+  
+  #adEx{
+    margin-left: 6.8%;
+  }
 }
-
+@media screen and (max-width:735px) {
+  
+  #dev{
+    margin-left: 1.5%;
+  }
+  #adEx{
+    margin-left: 4%;
+  }
+}
+@media screen and (max-width:670px) {
+  
+  .tools{
+    margin-left: 3%;
+  }
+  .left-1{
+    margin-left:24.5%;
+  } 
+  .right-1{
+    margin-left:24.5%;
+  } 
+}
+@media screen and (max-width:610px) {
+  
+  .tools{
+    margin-left: 14%;
+  }
+  .left-1{
+    margin-left: 27%;
+  } 
+  .right-1{
+    margin-left:27%;
+  }
+  #adEx{
+    margin-left: 4.5%;
+  } 
+}
+@media screen and (max-width:550px) {
+  
+  .hero-text{
+    margin-left: 5%;
+  }
+  .tools{
+    margin-left: 22%;
+  }
+  .left-1{
+    margin-left: 30%;
+  } 
+  .right-1{
+    margin-left:30%;
+  }
+  #adEx{
+    margin-left: 4.5%;
+  } 
+}
 @media screen and (max-width:500px) {
- 
-  .hero-image {
+.hero-image2 {
     background-position:left;
   }
+  
 section{
   transform: scale(1)
 }
@@ -173,7 +302,7 @@ section{
     position: relative;
     text-align: left;
     top: 80%;
-    left: 17%;
+    left: 15%;
     bottom: 0%;
     margin-bottom: 0%;
     font-size: 36px;
@@ -203,14 +332,39 @@ section{
   .skilltools {
     max-width: 100%;
     margin-right: 3vw;
-    margin-left: 3vw;
-    padding-left: 20%;
   }
+  .tools{
+    margin-left: 19%;
+  }
+  .left-1{
+    margin-left: 18%;
+  } 
+  .right-1{
+    margin-left:18%;
+  }
+  #adEx{
+    margin-left: 14.5%;
+  } 
 }
-
+@media screen and (max-width:376px) {
+  .hero-text h1 {
+    left: 4%;
+    font-size: 30px;
+  }
+  .left-1{
+    margin-left: -2%;
+  } 
+ 
+  .right-1{
+    margin-left:-2%;
+  }
+  #adEx{
+    margin-left: 4%;
+  } 
+}
 @media screen and (max-width:300px) {
   .hero-text h1 {
-    left:10%;
-    font-size: 30px;
+    left: 3%;
+    font-size: 26px;
   }
 }

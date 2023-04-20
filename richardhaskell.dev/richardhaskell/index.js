@@ -10,14 +10,14 @@
     document.getElementById('shim').style.display = document.getElementById('msgbx').style.display = "block";
     let mail = new FormData(form);
     mail.append('message',message.value)
-    //sendMail(mail);
+    sendMail(mail);
      
   });
 
   sendMail = async (mail) =>{
       // CHANGE TO ADDRESS MATCH VERSION http://localhost:8080/rhbackend/sendEmail
-        //axios.post('https://www.richardhaskell.dev/rhbackend/sendEmail', 
-        axios.post('http://localhost:8080/rhbackend/sendEmail', 
+        axios.post('https://www.richardhaskell.dev/rhbackend/sendEmail', 
+       // axios.post('http://localhost:8080/rhbackend/sendEmail', 
            mail, {
             headers: {
               'Content-Type': 'multipart/form-data'
