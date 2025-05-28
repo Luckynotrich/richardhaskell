@@ -62,7 +62,7 @@ form button{
   margin-bottom: -10px;
 }
   .h1_a{
-    cursor: url("./images/back-arrow.png"),help; 
+    cursor: url("./richardhaskell/images/back-arrow.png"),help; 
   }
   .hero-image3{
     /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
@@ -72,5 +72,10 @@ form button{
   .credit{
     margin-bottom: 0%;
     font-size: small;
+  }
+  @media screen and (max-width: 392px){
+    .container form#contact-form{
+      margin-left: -20px;
+    }
   }
   

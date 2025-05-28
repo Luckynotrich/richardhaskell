@@ -1,0 +1,2 @@
+In response to our climate crisis I conceptualized a tool to aggregate extreme weather events from around 
+                the world. I created a responsive interface using pure HTML, CSS, and Javascript 
