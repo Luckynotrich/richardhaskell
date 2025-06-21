@@ -30,8 +30,9 @@ h2 {
   display: inline;
   font-size: 28px;
 }
-
+li{margin-top: 5%;}
 section {
+  flex-flow: row;
   display: flex;
   height: 100%;
   margin: 10px;
@@ -53,7 +54,7 @@ ul {
   /* font-weight: bold; */
 }
 .h1_a {
-  cursor: url("./richardhaskell/images/envelope.png"), help;
+  cursor: url("./rh_backend/images/envelope.png"), help;
 }
 .hero-text {
   text-align: center;
@@ -64,10 +65,10 @@ ul {
   color: #d74e13;
 }
 .hero-text:visited {
-  color: #394d95;
+  color: #2653f8;
 }
 a:visited {
-  color: #394d95;
+  color: #2653f8;
 }
 .center {
   max-width: 975px;
@@ -87,7 +88,7 @@ a:visited {
 .skilltools {
   max-width: 80%;
   flex-wrap: nowrap;
-  margin-left: 1vw;
+  margin-left: 22%;
   margin-top: 2%;
 }
 
@@ -105,22 +106,22 @@ a:visited {
 }
 .greenthecoast {
   border-radius: 5px;
-  /* content: url("./richardhaskell/images/greenthecoast.png"); */
+ /* content: url("./images/greenthecoast.png");  */
   aspect-ratio: 5/4;
 }
 .gtc_man_content {
   border-radius: 5px;
-  /* content: url("./richardhaskell/images/entry_313w.png"); */
+ /* content: url("./images/entry_313w.png");  */
   aspect-ratio: 1/1;
 }
 .futureSelf {
   border-radius: 5px;
-  /* content: url("./images/for_302w.png"); */
+  /* content: url("./images/for_302w.png");  */
   aspect-ratio: 23/9;
 }
 .newledo {
   border-radius: 5px;
-  /* content: url("./images/newledo_230w.png"); */
+ /* content: url("./images/newledo_230w.png");  */
   aspect-ratio: 63/64;
 }
 /* The hero image */
@@ -142,13 +143,11 @@ a:visited {
 
 .hero-image1 {
   /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.01)),
-    url("./richardhaskell/images/RichOnTheMountain_croped_scaled1366w_fliped.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.01)), url("./rh_backend/richardhaskell/images/RichOnTheMountain_croped_scaled1366w_fliped.jpg");
 }
 .hero-image2 {
   /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.01)),
-    url("./richardhaskell/images/just-mountains-flipped.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.01)), url("./rh_backend/richardhaskell/images/just-mountains-flipped.jpg");
 }
 /* Place text in the middle of the image */
 
@@ -185,6 +184,8 @@ a:visited {
   .tools {
     margin-left: -16.5%;
   }
+  li{margin-top: 2%;}
+  ul{margin-left: 7%}
 }
 
 @media screen and (max-width: 1200px) {
@@ -192,6 +193,7 @@ a:visited {
     margin-left: -14.7%;
   }
 }
+
 @media screen and (max-width: 935px) {
   body {
     width: 100%;
@@ -202,7 +204,7 @@ a:visited {
   }
   .hero-image {
     margin-left: -1%;
-    margin-top: -3%;
+    margin-top: 0%;
     padding: 0%;
   }
 
@@ -220,6 +222,11 @@ a:visited {
   }
   #adEx {
     margin-left: 5.5%;
+  }
+}
+@media screen and (orientation: landscape) {
+  .hero-image {
+    margin-top: 0%;
   }
 }
 @media screen and (max-width: 835px) {

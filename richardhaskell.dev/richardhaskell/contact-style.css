@@ -61,9 +61,7 @@ form button{
   margin-top: 6px;
   margin-bottom: -10px;
 }
-  .h1_a{
-    cursor: url("./richardhaskell/images/back-arrow.png"),help; 
-  }
+  
   .hero-image3{
     /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.01)), url("images/more-mountains.png");

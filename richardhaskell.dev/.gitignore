@@ -1,0 +1,5 @@
+.auth
+.sh
+.env
+node_modules
+package-lock.json
